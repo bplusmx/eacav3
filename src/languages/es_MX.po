@@ -1,0 +1,495 @@
+# Copyright (C) 2017 acapulco
+# This file is distributed under the same license as the acapulco package.
+msgid ""
+msgstr ""
+"Project-Id-Version: acapulco\n"
+"POT-Creation-Date: 2017-05-01 14:17-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: bPlus TI <info@bplus.mx>\n"
+"Language: es_MX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Ups! La página no puede ser encontrada."
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Parece que no se encontró nada. ¿Quieres probar uno de los siguientes "
+"enlaces o realizar una nueva búsqueda?"
+
+#: 404.php:29
+msgid "Most Used Categories"
+msgstr "Categorías más utilizadas"
+
+#: 404.php:46
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr "Comentarios anteriores"
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr "Comentarios recientes"
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados"
+
+#: footer.php:19
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:19
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:21
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: framework/sidebars.php:17 functions.php:106
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:49
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:48
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:51
+msgid "Toggle navigation"
+msgstr ""
+
+#: inc/functions-strap.php:151
+#, php-format
+msgid "#%d (no title)"
+msgstr ""
+
+#: inc/functions-strap.php:224
+msgid "Name"
+msgstr ""
+
+#: inc/functions-strap.php:230
+msgid "Email"
+msgstr ""
+
+#: inc/functions-strap.php:236
+msgid "Website"
+msgstr ""
+
+#: inc/functions-strap.php:243
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: inc/functions-strap.php:246
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: inc/functions-strap.php:300
+msgid "Name your new _strapped theme"
+msgstr ""
+
+#: inc/functions-strap.php:304
+msgid "Theme name"
+msgstr ""
+
+#: inc/functions-strap.php:305
+msgid "Theme slug"
+msgstr ""
+
+#: inc/functions-strap.php:313
+msgid "Something like \"My Awesome Theme\" "
+msgstr ""
+
+#: inc/functions-strap.php:321
+msgid ""
+"Something like \"my_awesome_theme\" or \"mat\" - only letters, numbers and "
+"underscores allowed"
+msgstr ""
+
+#: inc/functions-strap.php:366
+msgid "Name is required"
+msgstr ""
+
+#: inc/functions-strap.php:373
+#, php-format
+msgid "You must specify a valid Theme slug - try: %s"
+msgstr ""
+
+#: inc/functions-strap.php:379
+#, php-format
+msgid "%1$s is not a valid Theme slug - try: %2$s instead"
+msgstr ""
+
+#: inc/functions-strap.php:403 inc/functions-strap.php:404
+#: inc/functions-strap.php:419
+msgid "Build theme"
+msgstr ""
+
+#: inc/functions-strap.php:426
+msgid "_strap it!"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:71 template-parts/content-page.php:32
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: lib/eaca-framework.php:175
+msgid "Main Menu"
+msgstr ""
+
+#: lib/eaca-framework.php:176
+msgid "Menu superior"
+msgstr ""
+
+#: lib/eaca-framework.php:177
+msgid "Menu pie de página"
+msgstr ""
+
+#: lib/required-plugins.php:197
+msgid "Instalar módulos requeridos"
+msgstr ""
+
+#: lib/required-plugins.php:198
+msgid "Instalar módulos"
+msgstr ""
+
+#: lib/required-plugins.php:199
+#, php-format
+msgid "Instalando módulo: %s"
+msgstr ""
+
+#: lib/required-plugins.php:200
+msgid "Ocurrió un error con la API del módulo."
+msgstr ""
+
+#: lib/required-plugins.php:201
+#, php-format
+msgid "Esta plantilla necesita el siguiente módulo: %1$s."
+msgid_plural "Esta plantilla necesita los siguientes módulos: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:202
+#, php-format
+msgid "Esta plantilla recomienda el siguiente módulo: %1$s."
+msgid_plural "Esta plantilla recomienda los siguientes módulos: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:203
+#, php-format
+msgid ""
+"Lo sentimos, no tienes los permisos necesarios para instalar el módulo %s. "
+"Contacta al administrador del sitio para que te ayude a instalarlo."
+msgid_plural ""
+"Lo sentimos, no tienes los permisos necesarios para instalar los módulos %s. "
+"Contacta al administrador del sitio para que te ayude a instalarlo."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:204
+#, php-format
+msgid "El siguiente módulo necesario se encuentra inactivo: %1$s."
+msgid_plural "Los siguientes módulos necesarios se encuentran inactivo: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:205
+#, php-format
+msgid "El siguiente módulo recomendado se encuentra inactivo: %1$s."
+msgid_plural ""
+"Los siguientes módulos recomendados se encuentran inactivo: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:206
+#, php-format
+msgid ""
+"Lo sentimos, no tienes los permisos necesarios para activar el módulo %s. "
+"Contacta al administrador del sitio para que te ayude a activarlo."
+msgid_plural ""
+"Lo sentimos, no tienes los permisos necesarios para activar los módulos %s. "
+"Contacta al administrador del sitio para que te ayude a activarlos."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:207
+#, php-format
+msgid ""
+"El siguiente módulo debe ser actualizado a la última versión para asegurar "
+"la mejor compatibilidad con esta plantilla: %1$s."
+msgid_plural ""
+"Los siguientes módulos deben ser actualizados a la última versión para "
+"asegurar la mejor compatibilidad con esta plantilla: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:208
+#, php-format
+msgid ""
+"Lo sentimos, no tienes los permisos necesarios para actualizar el módulo %s. "
+"Contacta al administrador del sitio para que te ayude a actualizarlo."
+msgid_plural ""
+"Lo sentimos, no tienes los permisos necesarios para actualizar los módulos "
+"%s. Contacta al administrador del sitio para que te ayude a actualizarlo."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:209
+msgid "Inicia proceso de instalación del módulo"
+msgid_plural "Inicia proceso de instalación de los módulos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:210
+msgid "Activar móudulo instalado"
+msgid_plural "Activar móudulos instalados"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/required-plugins.php:211
+msgid "Regresar al instalador de módulos necesarios"
+msgstr ""
+
+#: lib/required-plugins.php:212
+msgid "Módulo activado con éxito."
+msgstr ""
+
+#: lib/required-plugins.php:213
+#, php-format
+msgid "Todos los módulos se han instalado y activado. %s"
+msgstr ""
+
+#: lib/theme-options.php:25
+msgid "Opciones del sitio"
+msgstr ""
+
+#: lib/theme-options.php:34
+msgid "Configuración"
+msgstr ""
+
+#: lib/theme-options.php:46
+msgid "General"
+msgstr ""
+
+#: lib/theme-options.php:51
+msgid "Footer"
+msgstr ""
+
+#: lib/theme-options.php:56
+msgid "Fonts"
+msgstr ""
+
+#: lib/theme-options.php:61
+msgid "Headers"
+msgstr ""
+
+#: lib/theme-options.php:71
+msgid "Logo"
+msgstr ""
+
+#: lib/theme-options.php:74
+msgid ""
+"Image to be displayed on login page. Maximum width should be under 450pixels."
+msgstr ""
+
+#: lib/theme-options.php:78
+msgid "Set Logo size (%)"
+msgstr ""
+
+#: lib/theme-options.php:94
+msgid "Font options"
+msgstr ""
+
+#: lib/theme-options.php:99
+msgid "Body Content Font"
+msgstr ""
+
+#: lib/theme-options.php:102 lib/theme-options.php:121
+#: lib/theme-options.php:141 lib/theme-options.php:160
+#: lib/theme-options.php:179 lib/theme-options.php:197
+#: lib/theme-options.php:215 lib/theme-options.php:233
+msgid "Select a style"
+msgstr ""
+
+#: lib/theme-options.php:118
+msgid "Heading H1"
+msgstr ""
+
+#: lib/theme-options.php:138
+msgid "Heading H2"
+msgstr ""
+
+#: lib/theme-options.php:157
+msgid "Heading H3"
+msgstr ""
+
+#: lib/theme-options.php:176
+msgid "Heading H4"
+msgstr ""
+
+#: lib/theme-options.php:194
+msgid "Heading H5"
+msgstr ""
+
+#: lib/theme-options.php:212
+msgid "Heading H6"
+msgstr ""
+
+#: lib/theme-options.php:230
+msgid "Menu Font"
+msgstr ""
+
+#: lib/theme-options.php:249 lib/theme-options.php:274
+msgid "Save"
+msgstr "Guardar"
+
+#: lib/theme-options.php:258
+msgid "Aditional Javascript"
+msgstr "Javascript adicional"
+
+#: lib/theme-options.php:261
+msgid ""
+"Write aditional Javascript code and it will be added on the site. No need to "
+"add the <code>script</code> tag"
+msgstr ""
+"Código Javascript adicional, agrégalo y será incluido en el encabezado. No "
+"agregues las etiquetas <code>script</code>"
+
+#: lib/theme-options.php:266
+msgid "Aditional styles"
+msgstr "Estilos adicionales"
+
+#: lib/theme-options.php:269
+msgid ""
+"Write aditional styles and it will be added on the site header. No need to "
+"add the <code>style</code> tag"
+msgstr ""
+"Si deseas agregar estilos en el portal, agregalo y será incluido en el "
+"encabezado. No agregues las etiquetas <code>style</code>"
+
+#: partials/extra-headers.php:34
+#, php-format
+msgid "Página %s"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21 template-parts/content-single.php:25
+#: template-parts/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:27
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""

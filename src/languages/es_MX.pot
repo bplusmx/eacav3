@@ -1,0 +1,381 @@
+# Copyright (C) 2017 acapulco
+# This file is distributed under the same license as the acapulco package.
+msgid ""
+msgstr ""
+"Project-Id-Version: acapulco\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: bPlus TI <info@bplus.mx>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: src/404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: src/404.php:29
+msgid "Most Used Categories"
+msgstr ""
+
+#: src/404.php:46
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: src/comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/comments.php:40, src/comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: src/comments.php:43, src/comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: src/comments.php:44, src/comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: src/comments.php:77
+msgid "Comments are closed."
+msgstr ""
+
+#: src/footer.php:19
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: src/footer.php:19
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: src/footer.php:21
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: src/functions.php:49
+msgid "Primary Menu"
+msgstr ""
+
+#: src/functions.php:106
+msgid "Sidebar"
+msgstr ""
+
+#: src/header.php:47
+msgid "Skip to content"
+msgstr ""
+
+#: src/header.php:50
+msgid "Toggle navigation"
+msgstr ""
+
+#: src/search.php:18
+msgid "Search Results for: %s"
+msgstr ""
+
+#: src/searchform.php:11
+msgid "Search &hellip;"
+msgstr ""
+
+#: src/framework/sidebars.php:15
+msgid "Sidebar Pages"
+msgstr ""
+
+#: src/framework/sidebars.php:16
+msgid "Sidebar Categories"
+msgstr ""
+
+#: src/framework/sidebars.php:17
+msgid "Sidebar Singular"
+msgstr ""
+
+#: src/framework/sidebars.php:19
+msgid "Sidebar Top"
+msgstr ""
+
+#: src/framework/sidebars.php:20
+msgid "Sidebar Content 1"
+msgstr ""
+
+#: src/framework/sidebars.php:21
+msgid "Sidebar Content 2"
+msgstr ""
+
+#: src/framework/sidebars.php:22
+msgid "Sidebar Content 3"
+msgstr ""
+
+#: src/framework/sidebars.php:23
+msgid "Sidebar Footer"
+msgstr ""
+
+#: src/inc/customizer.php:17
+msgid "Theme settings"
+msgstr ""
+
+#: src/inc/customizer.php:18
+msgid "Theme configuration"
+msgstr ""
+
+#: src/inc/customizer.php:23
+msgid "Theme Layout Settings"
+msgstr ""
+
+#: src/inc/customizer.php:25
+msgid "Container width and sidebar defaults"
+msgstr ""
+
+#: src/inc/customizer.php:31
+msgid "Footer Settings"
+msgstr ""
+
+#: src/inc/customizer.php:33
+msgid "Footer customization"
+msgstr ""
+
+#: src/inc/customizer.php:46
+msgid "Container Width"
+msgstr ""
+
+#: src/inc/customizer.php:47
+msgid "Choose between Bootstrap's container and container-fluid"
+msgstr ""
+
+#: src/inc/customizer.php:52
+msgid "Fixed width container"
+msgstr ""
+
+#: src/inc/customizer.php:53
+msgid "Full width container"
+msgstr ""
+
+#: src/inc/customizer.php:66
+msgid "Sidebar Positioning"
+msgstr ""
+
+#: src/inc/customizer.php:67
+msgid "Set sidebar's default position: right, left, both or none. Note: this can be overridden on individual pages."
+msgstr ""
+
+#: src/inc/customizer.php:72
+msgid "Right sidebar"
+msgstr ""
+
+#: src/inc/customizer.php:73
+msgid "Left sidebar"
+msgstr ""
+
+#: src/inc/customizer.php:74
+msgid "Left & Right sidebars"
+msgstr ""
+
+#: src/inc/customizer.php:75
+msgid "No sidebar"
+msgstr ""
+
+#: src/inc/functions-strap.php:224
+msgid "Name"
+msgstr ""
+
+#: src/inc/functions-strap.php:230
+msgid "Email"
+msgstr ""
+
+#: src/inc/functions-strap.php:236
+msgid "Website"
+msgstr ""
+
+#: src/inc/functions-strap.php:243
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: src/inc/template-tags.php:28
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: src/inc/template-tags.php:33
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: src/inc/template-tags.php:50, src/inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: src/inc/template-tags.php:52
+msgid "Posted in %1$s"
+msgstr ""
+
+#: src/inc/template-tags.php:58
+msgid "Tagged %1$s"
+msgstr ""
+
+#: src/inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: src/inc/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: src/inc/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: src/inc/template-tags.php:71, src/template-parts/content-page.php:32
+msgid "Edit %s"
+msgstr ""
+
+#: src/lib/eaca-framework.php:177
+msgid "Main Menu"
+msgstr ""
+
+#: src/lib/eaca-framework.php:178
+msgid "Menu superior"
+msgstr ""
+
+#: src/lib/eaca-framework.php:179
+msgid "Menu pie de página"
+msgstr ""
+
+#: src/lib/theme-options.php:27
+msgid "Font Settings for the site"
+msgstr ""
+
+#: src/lib/theme-options.php:32, src/lib/theme-options.php:35, src/lib/theme-options.php:75, src/lib/theme-options.php:78
+msgid "Footer text"
+msgstr ""
+
+#: src/lib/theme-options.php:54, src/lib/theme-options.php:151
+msgid "Body Content Font"
+msgstr ""
+
+#: src/lib/theme-options.php:57, src/lib/theme-options.php:154, src/lib/theme-options.php:174, src/lib/theme-options.php:195, src/lib/theme-options.php:214, src/lib/theme-options.php:233, src/lib/theme-options.php:251, src/lib/theme-options.php:269, src/lib/theme-options.php:287
+msgid "Select a style"
+msgstr ""
+
+#: src/lib/theme-options.php:87
+msgid "Settings"
+msgstr ""
+
+#: src/lib/theme-options.php:88
+msgid "Site Options"
+msgstr ""
+
+#: src/lib/theme-options.php:99
+msgid "General"
+msgstr ""
+
+#: src/lib/theme-options.php:104
+msgid "Footer"
+msgstr ""
+
+#: src/lib/theme-options.php:109
+msgid "Fonts"
+msgstr ""
+
+#: src/lib/theme-options.php:114
+msgid "Headers"
+msgstr ""
+
+#: src/lib/theme-options.php:123
+msgid "Logo"
+msgstr ""
+
+#: src/lib/theme-options.php:126
+msgid "Image to be displayed on login page. Maximum width should be under 450pixels."
+msgstr ""
+
+#: src/lib/theme-options.php:130
+msgid "Set Logo size (%)"
+msgstr ""
+
+#: src/lib/theme-options.php:146
+msgid "Font options"
+msgstr ""
+
+#: src/lib/theme-options.php:171
+msgid "Heading H1"
+msgstr ""
+
+#: src/lib/theme-options.php:192
+msgid "Heading H2"
+msgstr ""
+
+#: src/lib/theme-options.php:211
+msgid "Heading H3"
+msgstr ""
+
+#: src/lib/theme-options.php:230
+msgid "Heading H4"
+msgstr ""
+
+#: src/lib/theme-options.php:248
+msgid "Heading H5"
+msgstr ""
+
+#: src/lib/theme-options.php:266
+msgid "Heading H6"
+msgstr ""
+
+#: src/lib/theme-options.php:284
+msgid "Menu Font"
+msgstr ""
+
+#: src/lib/theme-options.php:303, src/lib/theme-options.php:328
+msgid "Save"
+msgstr ""
+
+#: src/lib/theme-options.php:312
+msgid "Aditional Javascript"
+msgstr ""
+
+#: src/lib/theme-options.php:315
+msgid "Write aditional Javascript code and it will be added on the site. No need to add the <code>script</code> tag"
+msgstr ""
+
+#: src/lib/theme-options.php:320
+msgid "Aditional styles"
+msgstr ""
+
+#: src/lib/theme-options.php:323
+msgid "Write aditional styles and it will be added on the site header. No need to add the <code>style</code> tag"
+msgstr ""
+
+#: src/template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: src/template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: src/template-parts/content-none.php:28
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: src/template-parts/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: src/template-parts/content-page.php:21, src/template-parts/content-single.php:25, src/template-parts/content.php:38
+msgid "Pages:"
+msgstr ""
+
+#: src/template-parts/content.php:27
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""

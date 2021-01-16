@@ -1,0 +1,11 @@
+{
+    "require": {
+        "mobiledetect/mobiledetectlib": "~2.8",
+        "tgmpa/tgm-plugin-activation": "^2.4",
+        "gambitph/titan-framework": "^1.9"
+    },
+    "require-dev": {
+        "ccampbell/chromephp": "~4.1",
+        "lucatume/wp-browser": "^1.19"
+    }
+}

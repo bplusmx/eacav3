@@ -1,0 +1,40 @@
+.notas-destacadas {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  & > .navbar-header,
+  & > .navbar-collapse {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .notas-destacadas {
+    width: 750px;
+
+    & > .navbar-header,
+    & > .navbar-collapse {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .notas-destacadas {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .notas-destacadas {
+    width: 1170px;
+  }
+}

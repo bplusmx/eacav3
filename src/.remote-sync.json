@@ -1,0 +1,18 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "e-acapulco.com",
+  "port": "21",
+  "target": "/www/wp-content/themes/acapulco",
+  "ignore": [
+    ".remote-sync.json",
+    ".DS_Store",
+    ".git/**",
+    "less/**"
+  ],
+  "username": "eaca",
+  "password": "6H9liYGgx8QEXru9",
+  "watch": []
+}

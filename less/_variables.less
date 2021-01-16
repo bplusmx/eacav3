@@ -1,0 +1,174 @@
+
+@bower-path:               "../components";
+@vendor-path:              "vendor";
+@bower-path-vendors:        "../../components";
+
+@bootstrap-path:            "@{bower-path}/bootstrap";
+@flat-ui-path:              "@{bower-path}/flat-ui";
+@fontawesome-path:          "@{bower-path}/fontawesome";
+@bootstrap-sweetalert-path: "@{bower-path}/bootstrap-sweetalert";
+
+/* Ruta a los archivos LESS */
+@wordpress-less-path: 		"../wordpress";
+@bootstrap-less-path:       "@{bower-path-vendors}/bootstrap/less";
+@flat-ui-less-path:         "@{bower-path-vendors}/flat-ui/less";
+@jasny-bootstrap-less-path: "@{bower-path-vendors}/jasny-bootstrap/less";
+@font-awesome-less-path:    "@{bower-path}/fontawesome/less";
+
+/* Para las hojas de estilos de cada desarrollador */
+@bower-dev-path:                "../components";
+@bootstrap-dev-path:            "@{bower-dev-path}/bootstrap";
+@flat-ui-dev-path:              "@{bower-dev-path}/flat-ui";
+@fontawesome-dev-path:          "@{bower-dev-path}/fontawesome";
+@bootstrap-sweetalert-dev-path: "@{bower-dev-path}/bootstrap-sweetalert";
+
+/**
+ * Personalización de variables de Bootstrap
+ *
+ */
+
+//== Colors
+//
+@brand-primary:         #428bca;
+@brand-success:         #5cb85c;
+@brand-info:            #5bc0de;
+@brand-warning:         #f0ad4e;
+@brand-danger:          #d9534f;
+
+
+//== Scaffolding
+//
+// ## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+@body-bg:               #fff;
+//** Global text color on `<body>`.
+@text-color:            @gray-dark;
+
+//** Global textual link color.
+@link-color:            @brand-primary;
+//** Link hover color set via `darken()` function.
+@link-hover-color:      darken(@link-color, 15%);
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       Helvetica, Arial, Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-monospace:   Monaco, Menlo, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-sans-serif;
+
+@font-size-base:          14px;
+@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
+@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+
+@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
+@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
+@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
+@font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
+
+//-- Iconography
+//
+//## @see font-fix.less
+
+
+/******************************************************************************
+ *
+ * Personalización
+ *
+ *
+ */
+
+/*
+ * Espaciado
+ *
+ */
+@espacio-separador:         @grid-gutter-width;             /* 30px */
+@espacio-separador-medio:   (@grid-gutter-width     / 2);   /* 15px */
+@espacio-separador-tercio:  (@grid-gutter-width     / 3);   /* 10px */
+@espacio-separador-cuarto:  ceil(@grid-gutter-width / 4);   /* 8px */
+@espacio-separador-quinto:  ceil(@grid-gutter-width / 5);   /* 6px */
+@espacio-separador-sexto:   ceil(@grid-gutter-width / 6);   /* 5px */
+
+@espacio-separador-doble:         (@grid-gutter-width     * 2);   /* 60px */
+@espacio-separador-doble-medio:   (@espacio-separador-doble + @espacio-separador-medio);   /* 75px */
+@espacio-separador-triple:        (@grid-gutter-width     * 3);   /* 90px */
+
+/*
+ * Colores primarios
+ *
+ */
+@gro-azul:                  #2e557d;
+@gro-rojo:                  #b3155e;
+@gro-negro:                 #171915;
+@gro-amarillo:              #f3d400;
+@gro-blanco:                #ffffff;
+@gro-verde:                 #0d683c;
+@gro-gris:                  #323232;
+@gro-vino:                  #a12e2e;
+
+/* Barra superior */
+@topbar-text-color:         #fff;
+@topbar-bg-color:           @gro-azul;
+
+@tophead-bg-color:          @gro-azul;
+
+
+/*
+ * Carrusel
+ *
+ */
+@carousel-image-size: @screen-lg-desktop + 60;
+
+/*
+ * Cajas de destacados
+ *
+ */
+@featured-box-border-color: #cacaca;
+
+/*
+ * Encabezado
+ *
+ */
+@section-header-font-size: 1.9em;
+@section-header-margin-top: 10px;
+@section-header-margin-bottom: @section-header-margin-top;
+
+@global-important-color: #dd222e;
+
+/*
+ * Menú desplegable
+ *
+ */
+@menu-border-width: 1px;
+@menu-border-color: #bbbbbb; // Separador
+@menu-border-shadow-color: #cacaca; // Sombra gris
+@menu-border-medium-width: 3px;
+@menu-border-bottom-1st-color: #ed1b24; // Color rojo
+@menu-border-bottom-2nd-color: #eb8111; // Color naranja
+@menu-border-bottom-3rd-color: #0173af; // Color azul
+@menu-border-bottom-4th-color: #84b22c; // Color verde
+
+/*
+ * Cajas de noticias en el homepage
+ *
+ */
+@news-header-font-size: 1.9em;
+@news-header-margin-top: 10px;
+@news-header-margin-bottom: 10px;
+@news-height: 300px;
+
+
+/**
+ *
+ *
+ */
+/* Facebook */
+@facebook-color: #3b5998;
+@twitter-color: #55acee;
+@youtube-color: #cd201f;

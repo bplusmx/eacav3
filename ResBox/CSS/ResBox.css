@@ -1,0 +1,233 @@
+.extra
+{
+    margin: 0 auto;
+}
+
+.extra input, .extra select, .extra textarea
+{
+	font-family:Arial;
+	font-size:11px;
+}
+div#extra
+{
+	float:left;
+	width: 230px; /*Ancho Total*/
+	background-color: #ffffff;
+	line-height: normal;
+	font-family:Arial;
+	font-size:11px;
+	margin: 3px 0px 4px 3px;
+	padding: 0px 0px 1px;
+}
+#mnSel
+{
+	width: 230px;
+	float: left;
+	text-align: left;
+	background-position: 0% 99%;
+	background-repeat: no-repeat;
+}
+#mnSel div
+{
+	float: left;
+	padding:6px 0px 3px;
+	width: 62px;
+	text-align:center;
+	cursor:pointer;
+}
+.Sel1, .Sel1A, .Sel1:hover
+{
+	background: url(../Img/MnTab.jpg) no-repeat 0px 0px;
+	margin-right:1px;
+}
+.Sel2, .Sel2A, .Sel2:hover
+{
+	background: url(../Img/MnTab.jpg) no-repeat top;
+	margin-right:1px;
+	width:93px!Important;
+}
+.Sel3, .Sel3A, .Sel3:hover
+{
+	background: url(../Img/MnTab.jpg) no-repeat -98px 0px;
+}
+.Sel1A,.Sel2A,.Sel3A { cursor: default; }
+
+.Sel1A, .Sel1:hover,.Sel2A, .Sel2:hover,.Sel3A, .Sel3:hover { text-decoration:none!Important; color:#FB7328!Important; }
+.Sel1,.Sel2,.Sel3 { text-decoration:none!Important; color:#646464!Important; }
+.Sel1:hover, .Sel2:hover, .Sel3:hover { text-decoration:underline!Important; }
+.mnItem, .mnItemA {
+	font-size:12px;
+	font-weight: bolder;
+	margin-right: 1px;
+}
+.mnItem:hover { cursor:pointer; }
+.mnItemPq, .mnItemPqA
+{
+	float: left;
+	padding: 8px 0px 9px;
+	width: 112px;
+	text-align: center;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	font-weight: bold;
+}
+.mnItemPq { color: White; margin-right: 1px;
+	background-image: url(../Img/TabPaq_Off.gif); }
+.mnItemPqA { margin-right: 2px; text-decoration:none;
+	background-image: url(../Img/TabPaq_On.gif); }
+.sbMn
+{
+	float:left;
+	padding:0px 0px 0px 3px;
+	margin:0px;
+	width:218px;
+	cursor: pointer;	
+}
+.sbMn input { margin-left:0px; }
+.sbMn div:hover { font-weight:bold; color:#FB7328!Important; }
+.opHF { background:transparent url(../Img/icPK.gif) no-repeat 100px 4px; }
+.opFL { background:transparent url(../Img/icFL.gif) no-repeat 100px 4px; }
+.opHT { background:transparent url(../Img/icHT.gif) no-repeat 100px 4px; }
+._h{ font-weight:bold; color:#FB7328!Important; }
+.RBCt { background-color: transparent; /* Color de fondo de las cajas*************/
+	background-image: url(../Img/plcG.gif); /* Imagen de fondo */
+	background-repeat: repeat-x;
+	width: 227px; /* Ancho Total - bordes */
+	color: #000000; /* Color del Texto */
+	margin: 0px; padding: 0px; text-align: left; float: left; /*height:380px;*/ }
+.RBCt2
+{
+	border: #DCDCDC 1px solid; /* Bordes*/
+	border-bottom: 0px; /* Cancelamos border superior */
+	background-image: url(../Img/plcG2.gif); /* Imagen de fondo */
+	background-position:bottom;
+	background-repeat: repeat-x;
+	text-align:right;
+	}
+.rb_BL
+{
+	margin:-2px 0px 0px;
+}
+.RBCt form
+{
+	float: left;
+	/*width: 183px; /* Ancho Cajas -borders - Padding */
+	padding: 3px 0px 0px 5px;
+	margin: 0px;
+	display:none;
+	/*border-right:1px solid #DCDCDC;*/
+}
+.RBCt form a
+{
+	float:left;
+}
+.spMs
+{
+	float:left;
+	width:72px;
+}
+.spTT
+{
+	float:left;
+	width:100px;
+}
+.inLv
+{
+	float:left;
+	width:154px;
+	padding-left:4px;
+}
+.inLn
+{
+	padding-left: 5px;
+	width: 195px;
+}
+.cmbDst
+{
+	float:left;
+	width: 152px;
+	padding:0px! Important;
+}
+.comboLn
+{
+	width: 204px;
+	padding:0px! Important;
+}
+.comboP
+{
+	padding:0px! Important;
+}
+.spWidth
+{
+	float: left;
+	width: 99%;
+	margin: 2px 0px 0px;
+}
+.spB
+{
+	padding-bottom: 0px;
+}
+.spSp
+{
+	margin-top:4px;
+}
+.spTtlRgt
+{
+	margin-left: 4px;
+}
+.spRms
+{
+	float: left;
+	margin-top:7px;
+}
+.spRms span
+{
+	float:left;
+	margin: 3px 10px 0px 0px;
+	width:43px;
+}
+.spRmsX
+{
+	float: left;
+	padding-bottom: 2px;
+}
+.spOt
+{
+	margin-left: 55px;
+}
+.spLft, .spOt
+{
+	margin-right: 15px;
+}
+.spLftRm2
+{
+	float:left;
+	width: 195px;
+}
+.left { float: left; }
+.left2 { float: left; margin-left: 10px; }
+.fad, .fah, .fmd, .fmh, .fdd, .fdh { float: left; margin-right: 3px; padding:0px! Important; }
+.fad, .fah { width: 60px; }
+.fmd, .fmh { width: 65px; }
+.fdd, .fdh { width: 59px; }
+.cal { cursor: pointer; vertical-align: middle; }
+#ToTime,#FromTime { padding:0px! Important; }
+.iFSearch { float: left; width: 203px; margin: 7px 0px 0px; padding: 1px 0px 0px; font-size:10px; text-align: right; }
+.iFSearch a:hover { color:#FB7328; }
+.iFSearch a { background:url(../Img/icMas.gif) no-repeat 0px 82%; padding: 3px 0px 0px 12px; color:#999; }
+.btnSearch { margin-top: 10px; /* Margen superior para se aprovechado para imagen */ width: 64px; height: 20px; }
+.tbNn { float: left; margin: 12px 0px 0px; padding: 0px 0px 3px 5px; width: 202px; text-align: left; border: solid 1px #DDD; /*background-color: #e0f7fe;*/ }
+.tbTtl { float:right; position:relative; font-style:italic; background-color:White; margin: -9px 3px 0px; padding: 0px 3px; }
+.dRooms { float:left; margin-top: 2px; width:200px; }
+.sprRms { margin-top:0px; }
+.RmNm { float:left; margin-top:5px; }
+.CmbEdNn { float:left; width: 59px; margin: 0px 3px 0px 0px; }
+.CuartosText { float: left; width: 75px; margin-top: 3px; }
+.note { float:left; font-style: italic; color:#555; }
+#formatransfers { margin-top:27px; }
+.RbTtlTr { font-weight:bold; }
+.cbFlT { width:134px; }
+.Lns {float:left;font-size:1px;height:1px;border:1px solid #DCDCDC;border-width:0px 1px;background-color:#E6E6E6;}
+.Lnx1 {width:226px;margin:0px 1px 0px 0px;}
+.Lnx2 {width:225px;margin:0px 2px 0px 0px;}
+.Lnx3 {width:224px;margin:0px 3px 0px 0px;background-color:#DCDCDC;}
